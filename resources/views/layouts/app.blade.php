@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>LKP Cendana</title>
+  <title>CV.BEKANTAN JANTAN</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,9 +25,9 @@
   <nav class="main-header navbar navbar-expand navbar-dark navbar-info border-bottom">
     <div class="container">
       <a href="/" class="navbar-brand">
-        <img src="{{asset('assets/img/logo.png')}}" alt="AdminLTE Logo" class="brand-image img-circle "
+        <img src="{{ asset('assetslandingpage/dist/img/bknlogo.png') }}" alt="AdminLTE Logo" class="brand-image  "
              style="opacity: .9">
-        <span class="brand-text font-weight-light"><strong>LKP Cendana</strong></span>
+
       </a>
 
     @if(Auth::user())
@@ -78,11 +78,11 @@
   <footer class="main-footer">
     <!-- To the right -->
     <div class="float-right d-none d-sm-inline">
-      Theme by <a href="https://adminlte.io">AdminLTE.io</a>
+        version 1.0.0
     </div>
     <!-- Default to the left -->
-    Copyright &copy; 2019 LKP Cendana . All rights reserved. | Repost by <a href='https://stokcoding.com/' title='StokCoding.com' target='_blank'>StokCoding.com</a>
-    
+    Copyright &copy; 2023 CV.BEKANTAN JANTAN . All rights reserved. | Repost by <a href='https://bekantanjantan.com/' title='bekantanjantan.com' target='_blank'>bekantanjantan.com</a>
+
   </footer>
 </div>
 

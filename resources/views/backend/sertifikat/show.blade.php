@@ -39,20 +39,20 @@
 			text-align: center;
 			vertical-align: text-bottom;
 			height: 50px;
-			
+
 		}
 
 	</style>
 </head>
 <body>
-	<div id="head">
-		<div id="logo1"><img src="{{$logo1}}" height="100%" width="100%" /></div>
+	{{--  <div id="head">
+		<div id="bknlogo"><img src="{{$bknlogo}}" height="100%" width="100%" /></div>
 		<div id="title">
 			<center><h1>Sertifikat</h1></center><br>
 			<center><h3 id="nilek">NILEK &nbsp; NASIONAL &nbsp; : {{$nilek}}</h3></center>
 		</div>
 		<div id="logo2"><img src="{{$logo2}}" height="100%" width="100%" /></div>
-	</div>
+	</div>  --}}
 	<hr>
 	<div id="content">
 		<center><h3 id="no_ser">No.{{$no_ser}}</h3></center>
@@ -62,29 +62,29 @@
 			<tr><td class="tit">Nomor Induk</td><td class="colon">:</td><th>&nbsp;{{$induk}}</th></tr>
 			<tr><td class="tit">Tempat Tanggal Lahir</td><td class="colon">:</td><th>&nbsp;{{$ttl}}</th></tr>
 		</table>
-		<p>Telah mengikuti dan menyelesaikan <strong>Kursus {{$program}}</strong> dari tanggal <strong>{{$start}} s/d {{$end}}</strong> di LKP Cendana dan dinyatakan <strong>LULUS</strong> dengan Predikat <strong>{{$predikat}}</strong>.</p>
+		<p>Telah mengikuti dan menyelesaikan <strong>Kursus {{$program}}</strong> dari tanggal <strong>{{$start}} s/d {{$end}}</strong> di CV.BEKANTAN JANTAN dan dinyatakan <strong>LULUS</strong> dengan Predikat <strong>{{$predikat}}</strong>.</p>
 	</div>
 	<div id="foot">
 		<table id="sice">
-			<tr> 
-				<th rowspan="3"><p id="th">Foto</p></th> 
-			
-				<td>Samarinda,</td> 
-				<td><u>{{$date}}</u></td> 
-			
-		
-			</tr> 
-			<tr style="margin-bottom: 0px; padding-bottom: 0px;"> 
-				<td></td> 
-				<td style="margin-bottom: 0px !important; padding-bottom: 0px !important;"><strong><u>Warsi SH.M.Pd</u></strong></td> 
+			<tr>
+
+
+				<td>BANJARMASIN,</td>
+				<td><u>{{$date}}</u></td>
+
+
+			</tr>
+			<tr style="margin-bottom: 0px; padding-bottom: 0px;">
+				<td></td>
+				<td style="margin-bottom: 0px !important; padding-bottom: 0px !important;"><strong><u>M.NAJAMUDIN R.S.KOM.M.KOM</u></strong></td>
 			</tr>
 			<tr style="margin-top:-15px !important; padding: -15px !important; text-align: center;">
 				<td style="margin-top:-15px !important; padding: -15px !important;"></td>
 				<td style="margin-top:-15px !important; padding: -15px !important;">Pimpinan&nbsp;&nbsp;&nbsp;&nbsp;</td>
 			</tr>
 		</table>
-	
+
 	</div>
-	
+
 </body>
 </html>

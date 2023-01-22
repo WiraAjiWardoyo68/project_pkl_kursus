@@ -10,9 +10,9 @@
       <div class="container">
         <div class="row mb-2">
           <div class="col-sm-12">
-            <h1 class="m-0 text-dark"><i class="fas fa-home"></i> Halaman Awal</h1>
+            <h1 class="m-0 text-dark"><i class=""></i> </h1>
           </div><!-- /.col -->
-         
+
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
     </div>
@@ -22,21 +22,16 @@
     <div class="content">
       <div class="container">
         <div class="row">
-          
-          <div class="col-lg-6">
-            <div class="card card-primary card-outline">
-              
-              <div class="card-body">
-                <h6 class="card-title">Website ini digunakan untuk keperluan melihat nilai dan sertifikat bagi <b>Peserta</b> yang mengikuti kursus di LKP Cendana Samarinda. <br><br>
-                    Peserta Kursus yang belum mendapatkan akun, silahkan hubungi staff di Kantor LKP Cendana Samarinda.
-                </h6>
 
-              </div>
+          <div class="col-lg-6">
+
+
+
             </div>
           </div>
           @if(Auth::user())
-          <div class="col-lg-6">
-            <div class="alert alert-success">          
+          <div class="col-lg-6" ">
+            <div class="alert alert-success">
                   <h5><i class="icon fas fa-check"></i> Selamat datang {{auth::user()->username}}!</h5>
                   Saat ini anda telah login sebagai {{auth::user()->role}}.
                   @if(auth::user()->role != 'peserta')
@@ -48,9 +43,9 @@
           @else
           <!-- /.col-md-6 -->
           <div class="col-lg-6">
-            <div class="card card-warning">
+            <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Masuk ke Sistem</h3>
+                <h3 class="card-title">Silahkan Login</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
@@ -83,7 +78,7 @@
                 <!-- /.card-body -->
 
                 <div class="card-footer text-right">
-                  <button type="submit" class="btn btn-warning ">Login</button>
+                  <button type="submit" class="btn btn-primary ">Login</button>
                 </div>
               </form>
             </div>

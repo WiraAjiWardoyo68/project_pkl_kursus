@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>System Application</title>
+  <title>CV.BAKANTAN JANTAN</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -28,7 +28,7 @@
 
 <div class="wrapper">
 	<!-- Navbar -->
-  <nav class="main-header navbar navbar-expand navbar-success navbar-dark border-bottom">
+  <nav class="main-header navbar navbar-expand navbar-primary navbar-dark border-bottom">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
       <li class="nav-item">
@@ -62,9 +62,9 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar elevation-4 sidebar-light-success">
     <!-- Brand Logo -->
-    <a href="{{route('dash.index')}}" class="brand-link bg-warning">
-      <img src="{{asset('img/logo2.png')}}" alt="AdminLTE Logo" class="brand-image img-circle">
-      <span class="brand-text font-weight-light ">LKP Cendana</span>
+    <a href="{{route('dash.index')}}" class="brand-link bg-primary">
+      <img src="{{ asset('assetslandingpage/dist/img/bknlogo.png') }}" alt="AdminLTE Logo" class="brand-image" class="col-lg-3 col-md-4 col-xs-6">
+      <span class="brand-text font-weight-pimary ">.</span>
     </a>
 
     <!-- Sidebar -->

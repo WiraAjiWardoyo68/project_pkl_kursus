@@ -40,7 +40,7 @@ class PesertaController extends Controller
             'tanggal_lahir' => 'required|date',
             'gender' => 'required|string',
             'nohp' => 'required|string|max:15',
-            'alamat' => 'required|string', 
+            'alamat' => 'required|string',
         ]);
 
         $dataUser = request()->validate([
@@ -54,7 +54,7 @@ class PesertaController extends Controller
 
         $dataPeserta['user_id'] = $user->id;
 
-        $peserta = Peserta::create($dataPeserta); 
+        $peserta = Peserta::create($dataPeserta);
 
 
         //return redirect()->route('peserta.index')->with('success', 'data peserta kursus berhasil ditambahkan');
@@ -76,7 +76,7 @@ class PesertaController extends Controller
             'tanggal_lahir' => 'required|date',
             'gender' => 'required|string',
             'nohp' => 'required|string|max:15',
-            'alamat' => 'required|string', 
+            'alamat' => 'required|string',
         ]);
         $peserta->update($dataPeserta);
 
@@ -93,7 +93,7 @@ class PesertaController extends Controller
 
     public function destroy(Peserta $peserta)
     {
-    	
+
     	User::destroy($peserta->user->id);
 
     	return redirect()->back()->with('success', 'data peserta kursus berhasil dihapus');
@@ -101,7 +101,7 @@ class PesertaController extends Controller
     }
 
     public function show(Peserta $peserta)
-    {   
+    {
         return view('backend.peserta.show', compact('peserta'));
     }
 }
